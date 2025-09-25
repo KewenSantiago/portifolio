@@ -1,47 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio de Kewen Santiago</title>
+    <title>Portfólio de Kewen Santiago</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Início</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="#inicio">Início</a>
+            <a class="cabecalho__menu__link" href="#sobre-mim">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="#projetos">Meus projetos</a>
+            <a class="cabecalho__menu__link" href="#contato">Fale comigo</a>
         </nav>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Olá! Seja bem-vindo ao meu <strong class="titulo-destaque">Portifólio</strong></h1>
-            <p class="apresentacao__conteudo__texto">Eu me chamo <strong class="titulo-destaque">Kewen Santiago</strong>, acadêmico de Análise e Desenvolvimento de Sistemas, <strong class="titulo-destaque">aspirante a Full-Stack</strong> com interesse em <strong class="titulo-destaque">Desenvolvimento Web e Software</strong>. Atualmente, tenho experiência em <strong class="titulo-destaque">HTML, CSS, JavaScript</strong> e <strong class=" titulo-destaque">Java</strong>. 🎯</p>
-            <p class="apresentacao__conteudo__texto"> 🚀 Realizo projetos a fim de <strong class="titulo-destaque">aprimorar minhas habilidades</strong> e <strong class="titulo-destaque">adquirir experiência.</strong></p>
-            <p class="apresentacao__conteudo__texto"> Neste ano, concluí o curso da <strong class="titulo-destaque">Oracle</strong>, empresa multinacional reconhecida no setor, que me especializei para <strong class="titulo-destaque">Back-end</strong> em <strong class="titulo-destaque">Java</strong>.</p>
-            
-            <p class="apresentacao__conteudo__texto"> 🚧 <strong class="titulo-destaque">Em construção</strong> 🚧</p>
-            <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+
+    <main>
+        <section class="apresentacao" id="inicio">
+            <div class="apresentacao__conteudo">
+                <h1 class="apresentacao__conteudo__titulo">Olá! Seja bem-vindo ao meu <strong
+                        class="titulo-destaque">Portfólio</strong></h1>
+                <p class="apresentacao__conteudo__texto">Eu me chamo <strong class="titulo-destaque">Kewen
+                        Santiago</strong>, acadêmico de Análise e Desenvolvimento de Sistemas, <strong
+                        class="titulo-destaque">aspirante a Full-Stack</strong> com interesse em <strong
+                        class="titulo-destaque">Desenvolvimento Web e Software</strong>. Atualmente, tenho experiência em
+                    <strong class="titulo-destaque">HTML, CSS, JavaScript</strong> e <strong
+                        class=" titulo-destaque">Java</strong>. 🎯
+                </p>
+                <p class="apresentacao__conteudo__texto"> 🚀 Realizo projetos a fim de <strong
+                    class="titulo-destaque">aprimorar minhas habilidades</strong> e <strong
+                    class="titulo-destaque">adquirir experiência.</strong></p>
+                <p class="apresentacao__conteudo__texto"> Neste ano, concluí o curso da <strong
+                    class="titulo-destaque">Oracle</strong>, empresa multinacional reconhecida no setor, que me
+                    especializei para <strong class="titulo-destaque">Back-end</strong> em <strong
+                    class="titulo-destaque">Java</strong>.</p>
+            </div>
+            <aside>
+                <img class="apresentacao__imagem" src="./assets/foto-portifolio.png" alt="Foto de Kewen Santiago">
+            </aside>
+        </section>
+
+        <section class="sobre-mim" id="sobre-mim">
+            <h2 class="secao__titulo">Sobre Mim</h2>
+            <div class="sobre-mim__conteudo">
+                <p class="apresentacao__conteudo__texto">Desde a infância, sempre fui fascinado por tecnologia. Eu era aquela pessoa na família a quem todos recorriam para solucionar problemas com computadores e dispositivos. Esse interesse natural me levou a buscar conhecimento na área.</p>
+            <p class="apresentacao__conteudo__texto">Em 2024, dei o primeiro passo oficial ao começar a estudar programação por conta própria. Meu empenho me permitiu evoluir rapidamente, e em 2025 conquistei uma vaga no curso de programação da Oracle, uma empresa multinacional reconhecida no setor. No mesmo ano, iniciei minha graduação em Análise e Desenvolvimento de Sistemas, consolidando minha jornada na área da tecnologia.</p>
+            <p class="apresentacao__conteudo__texto">Estou sempre em busca de aprendizado e desafios, e acredito que essa base acadêmica, somada à minha dedicação, me prepara para contribuir ativamente no ambiente profissional.</p>
+
+            </div>
+        </section>
+
+        <section class="redes-sociais" id="contato">
+            <h2 class="secao__titulo">Acesse minhas redes:</h2>
+            <div class="apresentacao__links__botoes">
                 <a class="apresentacao__links__navegacao" href="https://github.com/KewenSantiago">
-                    <img src="./assets/github.png">
+                    <img src="./assets/github.png" alt="Ícone do GitHub">
                     GitHub
                 </a>
                 <a class="apresentacao__links__navegacao" href="https://linkedin.com/in/kewen-santiago">
-                    <img src="./assets/linkedin.png">   
+                    <img src="./assets/linkedin.png" alt="Ícone do LinkedIn">
                     LinkedIn
                 </a>
                 <a class="apresentacao__links__navegacao" href="https://instagram.com/kewen.santiago">
-                    <img src="./assets/instagram.png">
+                    <img src="./assets/instagram.png" alt="Ícone do Instagram">
                     Instagram
                 </a>
             </div>
         </section>
-        <img class="apresentacao__imagem" src="./assets/foto-portifolio.png" alt="Foto pessoal">
     </main>
+
     <footer class="rodape">
         <p>Desenvolvido por Kewen Santiago ®</p>
     </footer>
 </body>
+
 </html>
